@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_dogo.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_dogo-user \
+    lineage_dogo-userdebug \
+    lineage_dogo-eng
